@@ -1,0 +1,11 @@
+class test3 
+{
+	public static void main(String[] args) 
+	{
+		int mark=10;
+		char res=((mark>=1 && mark<=15)?'A':(mark>=16 && mark<=30)?'B':(mark>=31 && mark<=50)?'C':'D');
+		String res1=((mark>50) &&(mark<0)?"invailed":"vailed");
+		System.out.println(res);
+		System.out.println(res1);
+	}
+}
