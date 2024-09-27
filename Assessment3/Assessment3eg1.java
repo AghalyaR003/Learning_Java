@@ -1,0 +1,14 @@
+class Assessment3eg1 
+{
+	public static void main(String[] args) 
+	{
+		int a;
+		a=13;
+		System.out.println(a);
+		a=34;
+		System.out.println(a);
+		a=12; 
+		System.out.println(a);
+
+	}
+}

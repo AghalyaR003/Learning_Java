@@ -1,0 +1,11 @@
+class demo 
+{
+	public static void main(String[] args) 
+	{
+		byte a=100;
+		float res =a;
+
+		System.out.println("byte:"+a);
+		System.out.println("float:"+res);
+	}
+}
