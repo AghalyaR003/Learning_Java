@@ -1,0 +1,17 @@
+import java.util.*;
+class ass1 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("enter the start number:");
+		int start=sc.nextInt();
+		System.out.print("enter the en number:");
+		int end=sc.nextInt();
+		for (int i=start;i<=end ;i++ )
+		{
+					System.out.println(start);
+
+		}
+	}
+}

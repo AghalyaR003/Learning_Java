@@ -1,0 +1,27 @@
+import java.util.*;
+class perfect_number 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("enter the value");
+		int num=sc.nextInt();
+		int sum=0;
+		for (int i=1;i<num ;i++ )
+		{
+			if (num%i==0)
+			{
+				sum=sum+i;
+			}
+		}
+		if (num==sum)
+		{
+			System.out.println(num+" is perfect");
+		}
+		else
+		{
+						System.out.println(num+" is not perfect");
+		}
+
+	}
+}

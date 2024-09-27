@@ -1,0 +1,18 @@
+import java.util.*;
+class count_digits 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("enter the number");
+		int num=sc.nextInt();
+		int count=0;
+		for (int i=num;i>0 ;i=i/10,count++ )
+		{
+		}
+		System.out.println("the count of digits is:"+count);
+	}
+}
+
+// to print count of the digits
+
