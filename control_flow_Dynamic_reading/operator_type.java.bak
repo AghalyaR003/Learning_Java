@@ -1,0 +1,11 @@
+import java.util.*;
+class operator_type // 1)Arithmatic operator ->1) additional (+) 2) subtraction(-) 3)multiplication(*) 4)division(/) 5)modules (%)
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("integer");
+		int a=10,b=20;
+		int res=a+b;
+		
+	}
+}

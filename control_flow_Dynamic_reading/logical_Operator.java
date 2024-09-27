@@ -1,0 +1,27 @@
+import java.util.*;
+class logical_Operator  // 4 types of operator ( AND->&& , OR->|| ,NOT-> !) 
+{
+	static Scanner sc=new Scanner(System.in);
+
+	public static void main(String[] args) 
+	{
+		int a=sc.nextInt();		
+		int b=sc.nextInt();
+        int c=sc.nextInt();
+		System.out.println("enter the value");
+		if (a>b && a>c)
+		{
+			System.out.println("true");
+		}
+		else if(a<b || c>b)
+		{
+			System.out.println("false");
+		}
+		else if(a!=b && c==a)
+		{
+			System.out.println("invalid");
+		}
+
+	}
+}
+

@@ -1,0 +1,29 @@
+import java.util.*;
+class discount_if_else_stmt
+
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("enter the prices:");
+		int per_prices=sc.nextInt();
+		int qty=sc.nextInt();
+		float amount=0f;
+		float bill=0f;
+		if (qty>=100)           //should provide discount of 10%
+		{
+			amount=qty*per_prices;
+			bill=amount-(amount*0.1f);
+		}
+		else                 //should not provide discount
+		{
+			amount=qty*per_prices;
+			bill=amount;
+		}
+		System.out.println("quantify:"+qty);
+		System.out.println("item price:"+per_prices);
+		System.out.println("total bill:"+bill);
+
+
+	}
+}

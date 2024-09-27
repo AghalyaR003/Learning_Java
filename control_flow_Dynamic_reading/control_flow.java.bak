@@ -1,0 +1,37 @@
+import java.util.*;
+class control_flow 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("details");
+		if(5>3)     // if stmt
+		{
+			System.out.println("processing");
+
+			if(10>2)   //if-else                            
+			{
+		    	System.out.println("AB");
+				if(5<2)   // else-if ladder
+				{
+					System.out.println("cd");
+				}
+				else if(3>1)
+				{
+					System.out.println("ef");
+					
+				}
+				else{
+					System.out.println("gh");
+
+				}
+
+			}     //if-else
+
+			else{
+				System.out.println("thank");
+
+			}
+		}  //if stmt
+	}
+}
