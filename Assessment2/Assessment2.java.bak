@@ -1,0 +1,20 @@
+class Assessment2
+{
+	public static void main(String[] args) 
+	{
+		switch(12){
+			case 10:
+				System.out.println("java");
+			break;
+
+			case 11:
+				System.out.println("python");
+			break;
+
+			case 12:
+				System.out.println("only python");
+			break;
+		}
+
+	}
+}

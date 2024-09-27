@@ -1,0 +1,136 @@
+import java.util.Scanner;
+class swiggy
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.println("\t\t\tWelcome to swiggy\n");
+		System.out.println("\t\t\tSelect the hotel\n");
+		System.out.println("1.buhari\n 2.A2B\n 3.ss\n");
+
+		int hotel_selection=sc.nextInt();
+		//  System.out.println("Your Selected Hotel is:"+hotel_selection);
+
+		switch(hotel_selection){
+			case 1://buhari
+			{
+				System.out.println("\t\t\twelcome to BUHARI");
+				System.out.println("1.dosa\n2.idli\n3.poori");
+				System.out.println("\t\t\tselect the food");
+				int food_selection=sc.nextInt();
+				System.out.println("your selected food is:"+food_selection);
+				switch(food_selection){
+					case 1://dosa
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					case 2://idli
+					{
+					    System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+
+					case 3://pori
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					default://invalid food
+					{
+					   System.out.println("invalid food selection");
+
+						break;
+					}
+
+				}
+				break;
+			}
+			case 2://a2b
+			{
+				System.out.println("\t\t\t welcome to A2B");
+				System.out.println("1.chicken 65\n2.chicken briyani\n3.mutton briyani");
+				System.out.println("\t\t\tselect the food");
+				int food_selection=sc.nextInt();
+				//System.out.println("your selected food is:"+food_selection);
+				switch(food_selection){
+					case 1://chicken 65
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					case 2://chicken briyani
+					{
+					    System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+
+					case 3://mutton briyani
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					default://invalid food
+					{
+					   System.out.println("invalid food selection");
+
+						break;
+					}
+
+				}
+				break;
+			}
+			case 3://ss
+			{
+				System.out.println("\t\t\twelcome to SS");
+				System.out.println("1.briyani\n2.prawn briyani\n3.fish briyani");
+				System.out.println("\t\t\tselect the food");
+				int food_selection=sc.nextInt();
+				//System.out.println("your selected food is:"+food_selection);
+				switch(food_selection){
+					case 1://briyani
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					case 2://prawn briyani
+					{
+					    System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+
+					case 3://fish briyani
+					{
+						System.out.println("your selected food is:"+food_selection);
+
+						break;
+					}
+					default://invalid food
+					{
+					   System.out.println("invalid food selection");
+
+						break;
+					}
+
+				}
+
+			break;}
+
+			default://invalid
+			{
+				System.out.println("invalild Hotel");
+
+			}
+		}
+	}
+}
+

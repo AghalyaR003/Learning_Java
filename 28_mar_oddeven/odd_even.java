@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class odd_even 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the number");
+		int num=sc.nextInt();
+		if(num==0){
+			System.out.println("Testing");
+		}
+		else{
+			if(num%2==0)
+			{
+				System.out.println("SQL");
+			}
+			else{
+				System.out.println("Javascript");
+			}
+	}
+}
+}

@@ -1,0 +1,26 @@
+class  mar291
+{
+	public static void main(String[] args) 
+	{
+		int number=2;
+		if(number==1)
+		{
+		 System.out.println("java");
+		
+		}
+		else if(number==2){
+			   System.out.println("32ee");
+		}
+			
+		 else if (number==3)
+		 {
+			  System.out.println("4566");
+							
+		 }
+			 
+		else{
+			 System.out.println("Byee");
+		}
+
+	}
+}

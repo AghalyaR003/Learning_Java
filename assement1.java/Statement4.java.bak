@@ -1,0 +1,10 @@
+class Statement4 
+{
+	public static void main(String[] args) throws Exception
+	{
+		System.out.println("\t\t\t\"Tokens\"\nbasic building block of java programming language.\n\"4 types of Tokens\"");
+		Thread.sleep(5000);
+		System.out.print("1.Keyword.\n2.Identifers.\n3.Seperators.\n4.Jions");
+		
+	}
+}

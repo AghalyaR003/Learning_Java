@@ -1,0 +1,22 @@
+class Statement1 
+{
+	public static void main(String[] args) throws Exception
+	{
+		System.out.println("\t\t\t\t Java Aessement1");
+		Thread.sleep(2000);
+		System.out.print("Basic commands:");
+		Thread.sleep(2000);
+		System.out.println("\"1,PRINTLN:\" use to print line by line.");
+		Thread.sleep(2000);
+		System.out.println("\\t2, use for space or tab\"");
+		Thread.sleep(2000);
+		System.out.println("\n1\n2 3\n4 5 6");
+		Thread.sleep(2000);
+		System.out.println("\n\"3, use to print the data in next line.");
+		Thread.sleep(2000);
+		System.out.println("\"PRINT:\"4,print the data in single line.\"");
+		Thread.sleep(2000);
+		System.out.print("\"5,Thread.sleep:wait for seconds\".");
+		Thread.sleep(2000);
+	}
+}
