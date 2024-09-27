@@ -1,0 +1,17 @@
+import java.util.*;
+class p5 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("enter the start number");
+		int start=sc.nextInt();
+		int end=1;
+		while (start>=1)
+		{
+
+			System.out.println(start--);
+			
+		}
+	}
+}
