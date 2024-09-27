@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class test5 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		int number=sc.nextInt();
+		int num=sc.nextInt();
+		for(int i=number;i<=num;i++)
+		{
+
+		System.out.println(num+"X"+i"="(num*i));
+		}
+	}
+}

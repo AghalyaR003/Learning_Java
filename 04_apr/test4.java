@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class test4 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		
+		for(char ch=1;ch<=100;ch++)
+		{
+		System.out.println(ch+"\t\t"+(int)ch);
+		}
+	}
+}
